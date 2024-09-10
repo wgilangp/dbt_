@@ -18,7 +18,7 @@ mkdir creds
 ```
 ### BigQuery Setup
 1. Enable BigQuery API 
-2. Create your BQ Service Account: [references]: (https://docs.openbridge.com/en/articles/1856793-how-to-set-up-google-bigquery-creating-and-configuring-service-accounts-in-google-cloud-console) 
+2. Create your BQ Service Account: [references](https://docs.openbridge.com/en/articles/1856793-how-to-set-up-google-bigquery-creating-and-configuring-service-accounts-in-google-cloud-console) 
 3. Create your Dataset
 
 ### Environment Variables
