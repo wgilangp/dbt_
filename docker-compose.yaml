@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  dbt:
+    build: .
+    container_name: dbt-container
+    volumes:
+      - ./dbt:/app/dbt  # Mount the local dbt project to /app/dbt inside the container
+    working_dir: /app/dbt
+    entrypoint: ["dbt"]
+    command: ["run"]  # This runs dbt by default, but you can override it during runtime
+    env_file: 
+      - .env  # Load environment variables from .env file
