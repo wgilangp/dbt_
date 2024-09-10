@@ -1,7 +1,18 @@
 # dbt_playground
 
-debug dbt
-`docker compose run --rm dbt debug`
+Create your .env Files
 
-to run the docker compose
+```
+BIGQUERY_PROJECT={Your BigQuery Project}
+BIGQUERY_DATASET={Your BigQuery Dataset}
+```
+
+
+debug dbt
+`docker compose run --rm dbt-run debug`
+
+run dbt model
+`docker compose run --rm dbt-run run`
+
+build & run docker compose 
 `docker compose up --build`

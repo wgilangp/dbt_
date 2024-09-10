@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 /dbt/creds
+/dbt/models/dibimbing
 
 # C extensions
 *.so
