@@ -1,3 +1,16 @@
+# Data Warehousing Project
+
+This project is part of my Data Engineering Course, focusing on Data Warehousing concepts and implementation.
+
+## Tools and Resources
+
+In this project, I utilized several tools and resources provided by my mentor, [Salbifaza](https://github.com/salbifaza/), especially the `dbtools` which have been integral to building and managing the data warehouse structure.
+
+## Acknowledgments
+
+Special thanks to my mentor, [Salbifaza](https://github.com/salbifaza/), for providing guidance throughout the project and for sharing the invaluable `dbtools` that helped streamline the development process.
+
+
 # DBT Playground for teaching
 
 
